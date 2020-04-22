@@ -239,13 +239,16 @@ def display_data(df):
     start = 0
     stop = 5
 
+    # while loop to keep printing the next 5 lines until user wants to stop
     while(x):
         x = False
 
         print(df[start:stop], '\n')
 
+        # asking for user input
         y = input("Would you like to display more? Enter 'yes' or 'no':\n")
 
+        # checking the input for user intention
         if y.lower() == "yes":
             x = True
             start += 5
