@@ -38,8 +38,6 @@ def get_filters():
 
         if month in months:
             break
-        else:
-            continue
 
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
@@ -235,13 +233,12 @@ def display_data(df):
 
     print("Displaying first 5 rows...\n")
 
-    x = True
+    bool = True
     start = 0
     stop = 5
 
-    # while loop to keep printing the next 5 lines until user wants to stop
-    while(x):
-        x = False
+    while(bool):
+        bool = False
 
         print(df[start:stop], '\n')
 
@@ -250,7 +247,7 @@ def display_data(df):
 
         # checking the input for user intention
         if y.lower() == "yes":
-            x = True
+            bool = True
             start += 5
             stop += 5
             print()
