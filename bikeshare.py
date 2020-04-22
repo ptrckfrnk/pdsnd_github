@@ -38,8 +38,6 @@ def get_filters():
 
         if month in months:
             break
-        else:
-            continue
 
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
