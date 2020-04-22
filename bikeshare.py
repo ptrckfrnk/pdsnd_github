@@ -233,19 +233,19 @@ def display_data(df):
 
     print("Displaying first 5 rows...\n")
 
-    x = True
+    bool = True
     start = 0
     stop = 5
 
-    while(x):
-        x = False
+    while(bool):
+        bool = False
 
         print(df[start:stop], '\n')
 
         y = input("Would you like to display more? Enter 'yes' or 'no':\n")
 
         if y.lower() == "yes":
-            x = True
+            bool = True
             start += 5
             stop += 5
             print()
