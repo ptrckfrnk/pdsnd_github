@@ -15,3 +15,8 @@ bikeshare.py
 This project is part of the "Programming for Data Science with Python"-Nanodegree from Udacity, in order to a attain the certificate of completion.
 
 To see more on the program visit the [course webpage](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104).
+
+### Software
+* SQL -- data handling
+* Python -- running the functions
+* Pandas -- data analysis
